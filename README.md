@@ -2,7 +2,8 @@
 
 Product Information JSON API for Daraz.PK built with 🐍 Python and 🏺 Flask and deployed using 🔼 Vercel.
 
-## 📢 Note: This is a 🆓 Free and Open Public API. No 🚪 authentication or 🔑 keys needed!
+## 📢 Note: This is a 🆓 Free and Open Public API.
+## No 🚪 authentication or 🔑 keys needed!
 
 ## API Usage
 
