@@ -10,8 +10,10 @@ def fetchInfo(product):
     # product is "this-is-a-test-product-i212716725-s1420886889.html"
     url = "https://www.daraz.pk/products/" + product
     html_doc = requests.get(url).text
-    data = json.loads(
-        re.search(r'pdpTrackingData = ("{.*}")', html_doc).group(1))
+    data = re.search(r'pdpTrackingData = ("{.*}")', html_doc)
+    if data is None:
+        return {"status": False, "error": "Failed to retrieve product information"}
+    data = json.loads(data.group(1))
     data = data.replace('\"', '"')
     data = json.loads(data)
 
