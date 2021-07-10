@@ -2,8 +2,8 @@
 
 Product Information JSON API for Daraz.PK built with 🐍 Python and 🏺 Flask and deployed using 🔼 Vercel.
 
-## 📢 Note: This is a 🆓 Free and Open Public API.
-## No 🚪 authentication or 🔑 keys needed!
+## 📢 Note: This is a Free and Open Public API.
+## ✔️ No authentication or keys needed!
 
 ## API Usage
 
@@ -14,7 +14,7 @@ The web API is hosted at [https://daraz-abdulalikhan.vercel.app/](https://daraz-
 ### To query the information for a product listed on Daraz.pk 
 
    - 🌐 Navigate to the product's page
-   - For instance: https://www.daraz.pk/products/**this-is-a-test-product-i212716725-s1420886889.html**
+   - For instance:  [https://www.daraz.pk/products/ **this-is-a-test-product-i212716725-s1420886889.html** ](https://www.daraz.pk/products/this-is-a-test-product-i212716725-s1420886889.html)
    - Copy the portion in this link after "https://www.daraz.pk/products/"
    - Pass this portion of the product page as a parameter to the Daraz.PK API as follows:
    [https://daraz-abdulalikhan.vercel.app/this-is-a-test-product-i212716725-s1420886889.html](https://daraz-abdulalikhan.vercel.app/this-is-a-test-product-i212716725-s1420886889.html)
