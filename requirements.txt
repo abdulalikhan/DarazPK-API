@@ -1,3 +1,5 @@
-selenium
+re
+json
+requests
 flask
 gunicorn
