@@ -12,7 +12,7 @@ def home():
 
 @app.route("/<query>")
 def fetchInfo_(query):
-    return jsonify(dz.fetchInfo(query))
+    return jsonify(indent=2, sort_keys=False, result=dz.fetchInfo(query))
 
 
 if __name__ == "__main__":
