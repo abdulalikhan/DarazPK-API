@@ -14,10 +14,10 @@ The web API is hosted at [https://daraz-abdulalikhan.vercel.app/](https://daraz-
 ### To query the information for a product listed on Daraz.pk 
 
    - 🌐 Navigate to the product's page
-   - For instance:  [https://www.daraz.pk/products/ **this-is-a-test-product-i212716725-s1420886889.html** ](https://www.daraz.pk/products/this-is-a-test-product-i212716725-s1420886889.html)
+   - For instance:  [https://www.daraz.pk/products/ **-i220258773-s1433671472.html** ](https://www.daraz.pk/products/-i220258773-s1433671472.html)
    - Copy the portion in this link after "https://www.daraz.pk/products/"
    - Pass this portion of the product page as a parameter to the Daraz.PK API as follows:
-   [https://daraz-abdulalikhan.vercel.app/this-is-a-test-product-i212716725-s1420886889.html](https://daraz-abdulalikhan.vercel.app/this-is-a-test-product-i212716725-s1420886889.html)
+   [https://daraz-abdulalikhan.vercel.app/-i220258773-s1433671472.html](https://daraz-abdulalikhan.vercel.app/-i220258773-s1433671472.html)
 
 The API will respond with the following attributes for the queried product in JSON format:
 - Product Name (name)
@@ -31,16 +31,17 @@ The API will respond with the following attributes for the queried product in JS
 
 ```json
 {
-   "category":[
-      "Pet Supplies",
-      "Dog",
-      "Dog Food",
-      "Dog Dry Food"
-   ],
-   "discount":"",
-   "image":"https://static-01.daraz.pk/p/89cf667382e734d6522ce72eedc1eed2.jpg",
-   "name":"WOOF PUPPY FOOD 3KG",
-   "price":"Rs. 1,200",
-   "seller":"Be Happy Pets"
+  "category": [
+    "Fashion", 
+    "Men", 
+    "Clothing", 
+    "Casual Tops", 
+    "T-Shirts"
+  ], 
+  "discount": "-55%", 
+  "image": "https://static-01.daraz.pk/p/444c65c97cc08a4df20ac04b32b39846.jpg", 
+  "name": "Select by Daraz Basic Round Neck T-Shirt For Men", 
+  "price": "Rs. 550", 
+  "seller": "Select by Daraz"
 }
 ```
