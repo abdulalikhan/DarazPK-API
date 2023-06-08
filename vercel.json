@@ -1,9 +1,8 @@
 {
-    "name": "DarazPK API",
     "version": 2,
     "builds": [{
         "src": "*py",
-        "use": "@liudonghua123/now-flask"
+        "use": "@vercel/python"
     }],
     "routes": [
         { "src": "(.*)", "dest": "app.py" }
